@@ -18,7 +18,7 @@ buttons.forEach(button => {
         currentInput = eval(currentInput);
         display.value = currentInput;
       } catch {
-        display.value = "Ошибка!";
+        display.value = "Wrong";
       }
       return;
     }
@@ -30,3 +30,4 @@ buttons.forEach(button => {
 });
 
 //DEVELOPER112
+
