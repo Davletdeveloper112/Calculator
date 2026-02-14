@@ -13,8 +13,6 @@ buttons.forEach(button => {
       display.value = "0";
       return;
     }
-
-
     if (button.classList.contains('equal')) {
       try {
         currentInput = eval(currentInput);
@@ -30,3 +28,5 @@ buttons.forEach(button => {
     display.value = currentInput;
   });
 });
+
+//DEVELOPER112
